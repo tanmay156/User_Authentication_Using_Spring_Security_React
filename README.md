@@ -1,4 +1,4 @@
-# JWT Authentication System with React & Spring Boot
+# User Authentication Using Spring Security React
 
 ## 🚀 Project Overview
 This is a **full-stack authentication system** built with **React.js** (frontend) and **Spring Boot** (backend). It implements **JWT-based authentication** to ensure secure user login, registration, and access control.
