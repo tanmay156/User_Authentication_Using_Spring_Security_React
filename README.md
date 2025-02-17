@@ -43,7 +43,7 @@ The frontend is styled using **Bootstrap**, handles API requests using **Axios**
 ### **Backend (Spring Boot)**
 1. Clone the repository:
    ```sh
-   git clone <[https://github.com/tanmay156/User_Authentication_Using_Spring_Security_React]>
+   git clone https://github.com/tanmay156/User_Authentication_Using_Spring_Security_React
    cd backend
    ```
 2. Configure the **application.properties** file with your **MySQL database** settings.
