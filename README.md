@@ -1,4 +1,3 @@
-# User_Authentication_Using_Spring_Security_React
 # JWT Authentication System with React & Spring Boot
 
 ## 🚀 Project Overview
@@ -44,14 +43,14 @@ The frontend is styled using **Bootstrap**, handles API requests using **Axios**
 ### **Backend (Spring Boot)**
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone <[https://github.com/tanmay156/User_Authentication_Using_Spring_Security_React]>
    cd backend
    ```
 2. Configure the **application.properties** file with your **MySQL database** settings.
 3. Build and run the Spring Boot application:
    ```sh
    mvn clean install
-   mvn spring-boot:run
+   mvn backend:run
    ```
    The backend will now be running on `http://localhost:8080`.
 
@@ -65,11 +64,17 @@ The frontend is styled using **Bootstrap**, handles API requests using **Axios**
    ```
 2. Install the necessary dependencies:
    ```sh
-   npm run dev
+   npm install
    ```
-3. Run the React application:
+
+3. Install additional dependencies required for the frontend:
    ```sh
-   npm start
+   npm install bootstrap axios react-router-dom react-hot-toast
+   ```
+
+4. Run the React application:
+   ```sh
+   npm run dev
    ```
    The frontend will be running on `http://localhost:5173`.
 
@@ -91,7 +96,6 @@ The frontend is styled using **Bootstrap**, handles API requests using **Axios**
 
 ### **Logout**  
 - Clicking the **Logout** button will remove the token from **localStorage**, logging the user out and redirecting them to the login page.
-
 ---
 
 ## 🤝 Contributing  
