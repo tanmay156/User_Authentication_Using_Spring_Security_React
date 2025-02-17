@@ -59,7 +59,7 @@ The frontend is styled using **Bootstrap**, handles API requests using **Axios**
 ### **Frontend (React)**
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/tanmay156/User_Authentication_Using_Spring_Security_React
    cd frontend
    ```
 2. Install the necessary dependencies:
